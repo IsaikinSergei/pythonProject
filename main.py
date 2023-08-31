@@ -40,13 +40,56 @@
 #         break
 #     print(i)
 
-found = None
-for i in "Hello":
-    if i == "l":
-        found = True
-        break
-    else:
-        found = False
-print(found)
+# found = None
+# for i in "Hello":
+#     if i == "l":
+#         found = True
+#         break
+#     else:
+#         found = False
+# print(found)
+
+# СПИСКИ, ФУНКЦИИ и их МЕТОДЫ:
+# nums = [2, 10, 7, True, "Hello, Python!", 9.33, [5, 99]]
+#
+# nums[1] = 27
+# nums[4] = False
+#
+# print(nums[-1][1])
+
+# numbers = [3, 5, 10]
+#
+# numbers.append(100)
+# numbers.insert(1, True)
+#
+# b = [3, 77, 9]
+# numbers.extend(b)
+# numbers.sort()
+# numbers.reverse()
+#
+# numbers.pop(0)
+# numbers.remove(77)
+#
+# #numbers.clear()
+#
+# #print(numbers.count(9))
+# print(len(numbers))
+
+# nums = [3, 10, 9, "50", False]
+#
+# for el in nums:
+#     el *= 2
+#     print(el)
+
+n = int(input("Enter lenth: "))
+i = 0
+user_list = []
+
+while i < n:
+    string = "Enter element #" + str(i + 1) + ": "
+    user_list.append(input(string))
+    i += 1
+
+print(user_list)
 
 

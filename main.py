@@ -81,15 +81,45 @@
 #     el *= 2
 #     print(el)
 
-n = int(input("Enter lenth: "))
-i = 0
-user_list = []
+# n = int(input("Enter lenth: "))
+# i = 0
+# user_list = []
+#
+# while i < n:
+#     string = "Enter element #" + str(i + 1) + ": "
+#     user_list.append(input(string))
+#     i += 1
+#
+# print(user_list)
 
-while i < n:
-    string = "Enter element #" + str(i + 1) + ": "
-    user_list.append(input(string))
-    i += 1
+# ФУНКЦИИ СТРОК.Индексы и срезы
 
-print(user_list)
+# word = "Football,basketball,skate"
+# # print(word.count('r'))
+# # print(word.capitalize())
+# # print(word.upper())
+# # print(word[2])
+# # print(len(word))
+# # print(word.find('pr'))
+# hobby = word.split(',')
+# # print(hobby[1])
+#
+# for i in range(len(hobby)):
+#     hobby[i] = hobby[i].capitalize()
+#
+# result = ",".join(hobby)
+# print(result)
+
+# word = 'Football'
+#
+# # print(word[0:4])
+# # print(word[4:6])
+# # print(word[4:])
+# print(word[1:-1:2])
+
+list = [1,15,'bug', True, 7.22]
+
+print(list[2:5:2])
+print(list[::-1])
 
 

@@ -1,2 +1,2 @@
 # pythonProject
-🐍🐍🐍This is simple project for learning language Python
+🐍🐍🐍This is simple project for learning programmer language Python

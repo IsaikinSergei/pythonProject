@@ -117,9 +117,28 @@
 # # print(word[4:])
 # print(word[1:-1:2])
 
-list = [1,15,'bug', True, 7.22]
+# list = [1,15,'bug', True, 7.22]
+#
+# print(list[2:5:2])
+# print(list[::-1])
 
-print(list[2:5:2])
-print(list[::-1])
+# КОРТЕЖИ (TUPLE)
+#  кортежи в отличии от списков нельзя изменять, удалять или добавлять элемнты
+
+# data = (3,5,9,True, 7.33, "Hi!")
+# print(data[2:5])
+#
+# print(data.count(50))
+# print(len(data))
+
+# data = (3,5,9,True, 7.33, "Hi!")
+#
+# for i in data:
+#     print(i)
+
+nums = [5,7,8]
+new_data = tuple(nums)
+print(new_data)
+
 
 

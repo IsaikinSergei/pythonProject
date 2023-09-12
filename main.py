@@ -136,9 +136,35 @@
 # for i in data:
 #     print(i)
 
-nums = [5,7,8]
-new_data = tuple(nums)
-print(new_data)
+# nums = [5,7,8]
+# new_data = tuple(nums)
+# print(new_data)
 
+# СЛОВАРИ (dict)
+
+# country = {'code': 'US', 'name': 'United States'}
+# country = dict(code='US', name='United States')
+# print(country)
+#
+# for key,value in country.items():
+#     print(key, '-', value)
+# print(country.get('name'))
+# country.clear()
+# country.pop('name')
+# country.popitem()
+# print(country)
+person = {
+    'user_1': {
+        'first_name': 'John',
+        'last_name': 'Bon Jovi',
+        'age': 38,
+        'address': ('Samara city', 'Sugar street', '77')
+    },
+    'user_2': {
+
+    }
+}
+
+print(person['user_1']['address'][1])
 
 

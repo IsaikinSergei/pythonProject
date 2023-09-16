@@ -92,7 +92,7 @@
 #
 # print(user_list)
 
-# ФУНКЦИИ СТРОК.Индексы и срезы
+# ФУНКЦИИ СТРОК.Индексы и срезы:
 
 # word = "Football,basketball,skate"
 # # print(word.count('r'))
@@ -122,7 +122,7 @@
 # print(list[2:5:2])
 # print(list[::-1])
 
-# КОРТЕЖИ (TUPLE)
+# КОРТЕЖИ (TUPLE):
 #  кортежи в отличии от списков нельзя изменять, удалять или добавлять элемнты
 
 # data = (3,5,9,True, 7.33, "Hi!")
@@ -140,7 +140,7 @@
 # new_data = tuple(nums)
 # print(new_data)
 
-# СЛОВАРИ (dict)
+# СЛОВАРИ (dict):
 
 # country = {'code': 'US', 'name': 'United States'}
 # country = dict(code='US', name='United States')
@@ -153,18 +153,34 @@
 # country.pop('name')
 # country.popitem()
 # print(country)
-person = {
-    'user_1': {
-        'first_name': 'John',
-        'last_name': 'Bon Jovi',
-        'age': 38,
-        'address': ('Samara city', 'Sugar street', '77')
-    },
-    'user_2': {
+# person = {
+#     'user_1': {
+#         'first_name': 'John',
+#         'last_name': 'Bon Jovi',
+#         'age': 38,
+#         'address': ('Samara city', 'Sugar street', '77')
+#     },
+#     'user_2': {
+#
+#     }
+# }
+#
+# print(person['user_1']['address'][1])
 
-    }
-}
+# МНОЖЕСТВА (set and frozenset):
+# data = set("hello")
+# print(data)
+# выводятся в случайном порядке и все повторяющиеся элементы удаляются
 
-print(person['user_1']['address'][1])
-
-
+# data = {1,4,9,3,3}
+# data.add(48)
+# data.update([32, True, 8, 0])
+# data.remove(0)
+# data.pop()
+# print(data)
+# во множествах нельзя изменять элементы
+# nums = [5,7,3,5,5]
+# new_nums = set(nums)
+# print(new_nums)
+new_data = frozenset([3,77,8,0,True, False, "Hello",1,33,0])
+print(new_data)
